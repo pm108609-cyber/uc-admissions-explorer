@@ -13,3 +13,25 @@ Our team engineered a dynamic, transparent web application using Streamlit and P
 
 ## 📊 Key Insights
 By calculating baseline campus admission metrics side-by-side against isolated demographic rates, our application reveals important systemic variances (such as Simpson's Paradox anomalies when evaluating regional vs. systemwide aggregate admissions data pools). This interactive approach transforms dense public spreadsheets into clear, actionable institutional accountability markers.
+## 📊 Dashboard Visual Preview
+## 📊 Interactive Dashboard Insights (Fall 2025)
+
+Below is the live structural rendering of the admission equity gap discovered across our core population subset:
+
+```mermaid
+gantt
+    title Fall 2025 Freshman Acceptance Percentage (%)
+    axisFormat %
+    dateFormat X
+    section UC Berkeley
+    White Group Acceptance (12.02%) : active, 0, 12
+    Hispanic/Latino(a) Acceptance (11.81%) : 0, 11
+    section UC Davis
+    White Group Acceptance (45.04%) : active, 0, 45
+    Hispanic/Latino(a) Acceptance (35.87%) : 0, 36
+    section UCLA
+    White Group Acceptance (10.00%) : active, 0, 10
+    Hispanic/Latino(a) Acceptance (7.53%) : 0, 7
+```
+
+*Note: The interactive live application deployment script can be actively audited in the repository's `app.py` root folder file.*
