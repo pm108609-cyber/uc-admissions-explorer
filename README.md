@@ -16,21 +16,15 @@ By calculating baseline campus admission metrics side-by-side against isolated d
 ## 📊 Interactive Dashboard Insights (Fall 2025)
 
 Below is the live structural rendering of the admission equity gap discovered across our core population subset:
+## 📊 Fall 2025 Freshman Acceptance Matrix
 
-```mermaid
-gantt
-    title Fall 2025 Freshman Acceptance Percentage (%)
-    axisFormat %
-    dateFormat X
-    section UC Berkeley
-    White Group Acceptance (12.02%) : active, 0, 12
-    Hispanic/Latino(a) Acceptance (11.81%) : 0, 11
-    section UC Davis
-    White Group Acceptance (45.04%) : active, 0, 45
-    Hispanic/Latino(a) Acceptance (35.87%) : 0, 36
-    section UCLA
-    White Group Acceptance (10.00%) : active, 0, 10
-    Hispanic/Latino(a) Acceptance (7.53%) : 0, 7
-```
+| UC Campus | Demographic Group | Acceptance Probability | Visual Premium Index |
+| :--- | :--- | :--- | :--- |
+| **UC Berkeley** | 🟦 White | **12.0%** | `████░░░░░░░░░░░░░░░░` |
+| | 🟨 Hispanic/Latino(a) | **11.8%** | `████░░░░░░░░░░░░░░░░` |
+| **UC Davis** | 🟦 White | **45.0%** | `██████████████░░░░░░` |
+| | 🟨 Hispanic/Latino(a) | **35.9%** | `████████████░░░░░░░░` |
+| **UCLA** | 🟦 White | **10.0%** | `███░░░░░░░░░░░░░░░░░` |
+| | 🟨 Hispanic/Latino(a) | **7.5%** | `██░░░░░░░░░░░░░░░░░░` |
 
-*Note: The interactive live application deployment script can be actively audited in the repository's `app.py` root folder file.*
+*Note: Fully interactive controls, dynamic filtering variables, and metric visualization algorithms are actively deployed in our root `app.py` script workspace.*
