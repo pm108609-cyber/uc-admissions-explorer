@@ -13,9 +13,7 @@ Our team engineered a dynamic, transparent web application using Streamlit and P
 
 ## 📊 Key Insights
 By calculating baseline campus admission metrics side-by-side against isolated demographic rates, our application reveals important systemic variances (such as Simpson's Paradox anomalies when evaluating regional vs. systemwide aggregate admissions data pools). This interactive approach transforms dense public spreadsheets into clear, actionable institutional accountability markers.
-## 📊 Interactive Dashboard Insights (Fall 2025)
 
-Below is the live structural rendering of the admission equity gap discovered across our core population subset:
 ## 📊 Fall 2025 Freshman Acceptance Matrix
 
 | UC Campus | Demographic Group | Acceptance Probability | Visual Premium Index |
