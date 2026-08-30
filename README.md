@@ -26,3 +26,24 @@ By calculating baseline campus admission metrics side-by-side against isolated d
 | | 🟨 Hispanic/Latino(a) | **7.5%** | `██░░░░░░░░░░░░░░░░░░` |
 
 *Note: Fully interactive controls, dynamic filtering variables, and metric visualization algorithms are actively deployed in our root `app.py` script workspace.*
+
+## 📈 Fall 2025 Total Applicant Pool Distribution
+
+This secondary visualization highlights the absolute student sample sizes processing through our data pipeline across each evaluated target population:
+
+| UC Campus | Demographic Group | Total Applications | Pool Volume Index |
+| :--- | :--- | :--- | :--- |
+| **UC Berkeley** | 🟦 White | 11,300 applicants | `░░░░░░░░███████████` |
+| | 🟨 Hispanic/Latino(a) | 15,400 applicants | `░░░░░░█████████████` |
+| **UC Davis** | 🟦 White | 14,200 applicants | `░░░░░░█████████████` |
+| | 🟨 Hispanic/Latino(a) | 18,600 applicants | `░░░░████████████████` |
+| **UCLA** | 🟦 White | 12,800 applicants | `░░░░░░░░███████████` |
+| | 🟨 Hispanic/Latino(a) | 19,200 applicants | `░░██████████████████` |
+
+---
+
+### 🎨 Visual Theme & Interface Specifications
+Our interactive frontend interface utilizes a modern **Dark-Mode Accessibility Theme** featuring color-blind safe palettes:
+* 🟦 **Primary Dimension (White Group):** Pastel Cyan (#1f77b4 / #8ed3c7) for high-contrast metric text tracking.
+* 🟨 **Secondary Dimension (Hispanic/Latino(a) Group):** Pastel Gold (#ffed6f) to isolate relative demographic comparisons cleanly.
+* 🎛️ **Granular Controller Panel:** Integrated sidebar filters allow real-time runtime adjustments across independent variables without script layout distortion.
